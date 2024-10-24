@@ -32,7 +32,19 @@
     "parserOptions": {
       "parser": "@babel/eslint-parser"
     },
-    "rules": {}
+    "rules": {
+      "vue/html-indent": [
+        "error",
+        2
+      ],
+      "vue/script-indent": [
+        "error",
+        2
+      ],
+      "vue/multi-word-component-names": "off",
+      "vue/singleline-html-element-content-newline": "off",
+      "vue/multiline-html-element-content-newline": "off"
+    }
   },
   "browserslist": [
     "> 1%",
